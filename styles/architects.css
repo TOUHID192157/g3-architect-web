@@ -28,6 +28,15 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-primary{
+    background-color: #FF900E;
+    padding:20px 24px;
+    color:#FFFFFF;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+}
 
 /* header styles */
 
@@ -53,4 +62,27 @@
 .navbar , .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+/* banner styles */
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-contents{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.banner-image{
+    width: 100%;
+}
+/* responsive media query  */
+@media screen and (max-width: 576px ){
+    
+   .navbar, .nav-links{
+    flex-direction: column;
+   } 
 }
